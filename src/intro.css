@@ -1,0 +1,58 @@
+.intro_container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.intro_header{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    color: #333 ;
+    padding: 20px;
+}
+
+.profileImageContainer{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.profileImageContainer img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px 0;
+}
+
+.socialPic{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    color: #333 ;
+    padding: 10px;
+}
+
+.svg-icon {
+    width: 3em;
+    height: 3em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
